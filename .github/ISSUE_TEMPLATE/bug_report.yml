@@ -1,5 +1,5 @@
 name: Bug Report
-description: Use this template to report a bug. Fields marked as **required** must be completed.
+description: Use this template to report a bug. Fields marked as required must be completed.
 title: "[Bug] "
 labels: ["bug", "enhancement"]
 assignees: []
@@ -9,14 +9,14 @@ body:
     attributes:
       value: |
         ## Bug Description
-        Please provide the following details to help us resolve the issue. Fields marked as **required** must be completed.
+        Please provide the following details to help us resolve the issue. Fields marked as required must be completed.
         
     
 
   - type: input
     id: device
     attributes:
-      label: Device Used to Reproduce **(Required)**
+      label: Device Used to Reproduce (Required)
       description: Specify the device model (e.g., Samsung Galaxy S21, Pixel 6).
       placeholder: Enter device name
     validations:
@@ -25,7 +25,7 @@ body:
   - type: input
     id: android_version 
     attributes:
-      label: Android Version **(Required)**
+      label: Android Version (Required)
       description: Enter the version of Android (e.g., Android 11, Android 12).
       placeholder: Enter Android version
     validations:
@@ -34,7 +34,7 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: Priority of the Issue/Bug **(Required)**
+      label: Priority of the Issue/Bug (Required)
       description: Select the priority level for the issue.
       options:
         - Low
@@ -47,7 +47,7 @@ body:
   - type: textarea
     id: steps_to_reproduce 
     attributes:
-      label: Steps to Reproduce **(Required)**
+      label: Steps to Reproduce (Required)
       description: Provide detailed steps to reproduce the issue.
       placeholder: Enter step-by-step instructions
     validations:
