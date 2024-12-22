@@ -44,8 +44,7 @@ body:
       placeholder: Enter step-by-step instructions
 
   - type: textarea
+    id: media_to_upload
     attributes:
       label:Upload Related Screenshots/Media
-      description: |
-        ## Please upload any relevant screenshots, videos, or logs.
-        Alternatively, you can provide a link to the file(s) hosted on an external service (e.g., Google Drive, Dropbox, etc.).
+      description: Please upload any relevant screenshots, videos, or logs. Alternatively, you can provide a link to the file(s) hosted on an external service (e.g., Google Drive, Dropbox, etc.).
