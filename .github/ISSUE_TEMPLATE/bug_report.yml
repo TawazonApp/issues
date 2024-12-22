@@ -43,9 +43,9 @@ body:
       description: Provide detailed steps to reproduce the issue.
       placeholder: Enter step-by-step instructions
 
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        ## Upload Related Screenshots/Media
-        Please upload any relevant screenshots, videos, or logs as a comment after creating the issue.
+      label:Upload Related Screenshots/Media
+      description: |
+        ## Please upload any relevant screenshots, videos, or logs.
         Alternatively, you can provide a link to the file(s) hosted on an external service (e.g., Google Drive, Dropbox, etc.).
