@@ -57,5 +57,5 @@ body:
     id: media_to_upload
     attributes:
       label: Related Screenshots/Media (Optional)
-      description: Please upload any relevant screenshots, videos, or logs, or provide links to hosted files (e.g., Google Drive, Dropbox, etc.).
+      description: Please upload any relevant screenshots, videos, logs, or provide links to hosted files (e.g., Google Drive, Dropbox, etc.).
       placeholder: Enter a link or upload the files.
