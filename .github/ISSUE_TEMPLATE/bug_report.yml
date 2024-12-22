@@ -1,0 +1,55 @@
+name: Bug Report
+description: Use this template to report a bug.
+title: "[Bug] "
+labels: ["bug", "enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Description
+        Please provide a clear description of the bug.
+
+  - type: input
+    id: device
+    attributes:
+      label: Device Used to Reproduce
+      description: Specify the device model (e.g., Samsung Galaxy S21, Pixel 6).
+      placeholder: Enter device name
+      required: true
+
+  - type: input
+    id: android_version
+    attributes:
+      label: Android Version
+      description: Enter the version of Android (e.g., Android 11, Android 12).
+      placeholder: Enter Android version
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority of the Issue/Bug
+      description: Select the priority level for the issue.
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide detailed steps to reproduce the issue.
+      placeholder: Enter step-by-step instructions
+      required: true
+
+  - type: file
+    id: related_media
+    attributes:
+      label: Related Screenshots/Media
+      description: Attach any relevant screenshots, videos, or logs.
+      multiple: true
