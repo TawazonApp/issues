@@ -17,7 +17,6 @@ body:
       label: Device Used to Reproduce
       description: Specify the device model (e.g., Samsung Galaxy S21, Pixel 6).
       placeholder: Enter device name
-      required: true
 
   - type: input
     id: android_version
@@ -25,7 +24,6 @@ body:
       label: Android Version
       description: Enter the version of Android (e.g., Android 11, Android 12).
       placeholder: Enter Android version
-      required: true
 
   - type: dropdown
     id: priority
@@ -37,7 +35,6 @@ body:
         - Medium
         - High
         - Critical
-      required: true
 
   - type: textarea
     id: steps_to_reproduce
@@ -45,11 +42,10 @@ body:
       label: Steps to Reproduce
       description: Provide detailed steps to reproduce the issue.
       placeholder: Enter step-by-step instructions
-      required: true
 
-  - type: file
-    id: related_media
+  - type: markdown
     attributes:
-      label: Related Screenshots/Media
-      description: Attach any relevant screenshots, videos, or logs.
-      multiple: true
+      value: |
+        ## Upload Related Screenshots/Media
+        Please upload any relevant screenshots, videos, or logs as a comment after creating the issue.
+        Alternatively, you can provide a link to the file(s) hosted on an external service (e.g., Google Drive, Dropbox, etc.).
