@@ -1,5 +1,5 @@
 name: API Bug Report
-description: Use this template to report a bug in the API. Fields marked as required must be completed.
+description: Use this template to report an API issue. Fields marked as required must be completed.
 title: "[Bug][API] "
 labels: ["bug", "API"]
 assignees: []
@@ -38,22 +38,25 @@ body:
     id: request_body
     attributes:
       label: Request Body (Optional)
-      description: Provide the request body (e.g., JSON, form data) if applicable.
-      placeholder: Paste your request body here (e.g., `{ "email": "test@example.com", "password": "123456" }`)
+      description: Provide the body of the API request (e.g., JSON, form data) if applicable.
+      placeholder: |
+        Paste your request body here (e.g., `{ "email": "test@example.com", "password": "123456" }`)
 
   - type: textarea
     id: headers
     attributes:
       label: Request Headers (Optional)
       description: Include any relevant headers used in the request.
-      placeholder: Paste your request headers here (e.g., `{ "Authorization": "Bearer token123" }`)
+      placeholder: |
+        Paste your request headers here (e.g., `{ "Authorization": "Bearer token123" }`)
 
   - type: textarea
     id: response_body
     attributes:
       label: Response Body (Required)
       description: Provide the API response (e.g., success or error message).
-      placeholder: Paste the API response here (e.g., `{ "error": "Invalid credentials" }`)
+      placeholder: |
+        Paste the API response here (e.g., `{ "error": "Invalid credentials" }`)
     validations:
       required: true
 
@@ -71,9 +74,11 @@ body:
     attributes:
       label: Steps to Reproduce (Required)
       description: Provide detailed steps to reproduce the issue using Postman or other tools.
-      placeholder: Enter step-by-step instructions
+      placeholder: |
+        Enter step-by-step instructions (e.g., "1. Open Postman, 2. Send POST request to /api/v1/login")
     validations:
       required: true
+      
 
   - type: textarea
     id: additional_context
