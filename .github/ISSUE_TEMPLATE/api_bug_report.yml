@@ -1,0 +1,83 @@
+name: API Bug Report
+description: Use this template to report a bug in the API. Fields marked as required must be completed.
+title: "[Bug][API] "
+labels: ["bug", "API"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Description
+        Please provide the following details to help us identify and resolve the API issue. Fields marked as required must be completed.
+
+  - type: input
+    id: endpoint
+    attributes:
+      label: API Endpoint (Required)
+      description: Specify the API endpoint where the issue occurred (e.g., `/api/v1/user/login`).
+      placeholder: Enter the API endpoint
+    validations:
+      required: true
+
+  - type: dropdown
+    id: http_method
+    attributes:
+      label: HTTP Method (Required)
+      description: Select the HTTP method used for the request.
+      options:
+        - GET
+        - POST
+        - PUT
+        - DELETE
+        - PATCH
+    validations:
+      required: true
+
+  - type: textarea
+    id: request_body
+    attributes:
+      label: Request Body (Optional)
+      description: Provide the request body (e.g., JSON, form data) if applicable.
+      placeholder: Paste your request body here (e.g., `{ "email": "test@example.com", "password": "123456" }`)
+
+  - type: textarea
+    id: headers
+    attributes:
+      label: Request Headers (Optional)
+      description: Include any relevant headers used in the request.
+      placeholder: Paste your request headers here (e.g., `{ "Authorization": "Bearer token123" }`)
+
+  - type: textarea
+    id: response_body
+    attributes:
+      label: Response Body (Required)
+      description: Provide the API response (e.g., success or error message).
+      placeholder: Paste the API response here (e.g., `{ "error": "Invalid credentials" }`)
+    validations:
+      required: true
+
+  - type: input
+    id: status_code
+    attributes:
+      label: HTTP Status Code (Required)
+      description: Enter the HTTP status code returned by the API (e.g., 200, 400, 500).
+      placeholder: Enter HTTP status code
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce (Required)
+      description: Provide detailed steps to reproduce the issue using Postman or other tools.
+      placeholder: Enter step-by-step instructions
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context (Optional)
+      description: Include any additional information, such as Postman collection links, environment details, or logs.
+      placeholder: Add more context if needed
