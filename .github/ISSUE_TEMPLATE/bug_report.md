@@ -5,22 +5,22 @@ We offer the following templates to help you report issues and request enhanceme
 ### 1. **Android Bug Report**
 Use this template to report bugs specifically related to the Android version of the app. Please fill in the required fields to help us better understand the issue.
 
-[Click here to use the Android Bug Report template](#) <!-- https://github.com/TawazonApp/issues/blob/main/.github/ISSUE_TEMPLATE/android_bug_report.yml -->
+[Click here to use the Android Bug Report template](https://github.com/TawazonApp/issues/issues/new?assignees=&labels=bug%2CAndroid&projects=&template=android_bug_report.yml&title=%5BBug%5D%5BAndroid%5D+)
 
 ### 2. **iOS Bug Report**
 Use this template to report bugs specifically related to the iOS version of the app. Please fill in the required fields to help us better understand the issue.
 
-[Click here to use the iOS Bug Report template](#) <!-- https://github.com/TawazonApp/issues/blob/main/.github/ISSUE_TEMPLATE/ios_bug_report.yml -->
+[Click here to use the iOS Bug Report template](https://github.com/TawazonApp/issues/issues/new?assignees=&labels=bug%2CiOS&projects=&template=ios_bug_report.yml&title=%5BBug%5D%5BiOS%5D+)
 
 ### 3. **API Bug Report**
 Use this template to report issues with the API. This template is designed to gather all necessary information about the API request and response, making it easier to diagnose issues on the server side.
 
-[Click here to use the API Bug Report template](#) <!-- https://github.com/TawazonApp/issues/blob/main/.github/ISSUE_TEMPLATE/api_bug_report.yml -->
+[Click here to use the API Bug Report template](https://github.com/TawazonApp/issues/issues/new?assignees=&labels=bug%2CAPI&projects=&template=api_bug_report.yml&title=%5BBug%5D%5BAPI%5D+)
 
 ### 4. **Enhancement Request**
 Use this template to suggest improvements, new features, or other enhancements for the app. Your ideas are important to us, and we review each request to improve the product.
 
-[Click here to use the Enhancement Request template](#) <!-- https://github.com/TawazonApp/issues/blob/main/.github/ISSUE_TEMPLATE/enhancement_request.yml -->
+[Click here to use the Enhancement Request template](https://github.com/TawazonApp/issues/issues/new?assignees=&labels=enhancement&projects=&template=enhancement_request.yml&title=%5BEnhancement%5D+)
 
 ---
 
