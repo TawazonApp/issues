@@ -1,4 +1,4 @@
-name: Bug Report (iOS)
+name: iOS Bug Report
 description: Use this template to report a bug for iOS. Fields marked as required must be completed.
 title: "[Bug][iOS] "
 labels: ["bug", "iOS"]

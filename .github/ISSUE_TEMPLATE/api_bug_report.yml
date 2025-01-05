@@ -1,4 +1,4 @@
-name: Bug Report (API)
+name: API Bug Report
 description: Use this template to report an API issue. Fields marked as required must be completed.
 title: "[Bug][API] "
 labels: ["bug", "API"]

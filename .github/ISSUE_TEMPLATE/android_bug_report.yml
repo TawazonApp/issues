@@ -1,4 +1,4 @@
-name: Bug Report (Android)
+name: Android Bug Report
 description: Use this template to report a bug for Android. Fields marked as required must be completed.
 title: "[Bug][Android] "
 labels: ["bug", "Android"]
